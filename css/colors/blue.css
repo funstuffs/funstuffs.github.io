@@ -17,7 +17,7 @@
 }
 
 .btn-main {
-  background: #1b588e;
+  background: #28ABE3;
   border: 1px solid #28ABE3;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .testimonial {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .portfolio-filter button {
@@ -96,7 +96,7 @@
 }
 
 .counters-item i {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .contact-form input:hover,
@@ -143,7 +143,7 @@
 }
 
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
-  border: 1px solid #1b588e;
+  border: 1px solid #28ABE3;
 }
 
 /*# sourceMappingURL=../maps/colors/blue.css.map */
