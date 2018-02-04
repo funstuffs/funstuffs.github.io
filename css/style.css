@@ -1305,10 +1305,11 @@ a:focus, a:hover {
 ==================================================================*/
 .testimonial {
   padding-top: 100px;
-  background: #28ABE3;
+  background: #1b588e;
   position: relative;
-  padding-bottom: 0px;
+  padding-bottom: 100px;
   margin-bottom: 80px;
+  font-color:#fff
 }
 
 .testimonial:before {
@@ -1323,7 +1324,7 @@ a:focus, a:hover {
 }
 
 .testimonial .item i {
-  font-size: 60px;
+  font-size: 70px;
   color: #fff;
   margin-bottom: 50px;
   display: inline-block;
