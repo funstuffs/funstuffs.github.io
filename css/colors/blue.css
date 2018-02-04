@@ -3,7 +3,7 @@
     height: 30px;
     -webkit-transform: translateY(15px);
     transform: translateY(15px);
-    background: #1b588e;
+    background: #28ABE3;
   }
 }
 
@@ -12,25 +12,25 @@
     height: 30px;
     -webkit-transform: translateY(15px);
     transform: translateY(15px);
-    background: #1b588e;
+    background: #28ABE3;
   }
 }
 
 .btn-main {
   background: #1b588e;
-  border: 1px solid #1b588e;
+  border: 1px solid #28ABE3;
 }
 
 .title .border {
-  background-color: #1b588e;
+  background-color: #28ABE3;
 }
 
 .navigation .navbar-nav > li.active a {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .testimonial {
@@ -38,7 +38,7 @@
 }
 
 .portfolio-filter button {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .team .member-photo .mask {
@@ -49,14 +49,14 @@
   Our skills
 ==================================================================*/
 .team-skills .progress-block .progress .progress-bar {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 /*=================================================================
   Step section
 ==================================================================*/
 .development-steps .step-2 {
-  background-color: #1b588e;
+  background-color: #28ABE3;
 }
 
 .development-steps .step-3 {
@@ -68,31 +68,31 @@
 }
 
 .services .service-block.color-bg {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .services .service-block i {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .service-2 .service-item:hover i {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .service-2 .service-item i {
-  background: #1b588e none repeat scroll 0 0;
+  background: #28ABE3 none repeat scroll 0 0;
 }
 
 .pricing-table .price-title .value {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .portfolio-filter ul li.active {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .portfolio-block .caption .search-icon {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .counters-item i {
@@ -102,44 +102,44 @@
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #1b588e;
+  border-color: #28ABE3;
 }
 
 .contact-form #contact-submit {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .social-icon ul li a:hover {
   background: #28ABE3;
-  border: 1px solid #1b588e;
+  border: 1px solid #28ABE3;
 }
 
 .about .btn-about {
-  background: #1b588e;
+  background: #28ABE3;
 }
 
 .about .feature-list li i {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .top-footer li a:hover {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .footer-bottom a {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .post-meta a {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .next-prev a:hover {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .social-profile ul li a i:hover {
-  color: #1b588e;
+  color: #28ABE3;
 }
 
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
