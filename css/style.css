@@ -552,10 +552,6 @@ a:focus, a:hover {
   margin-bottom: 20px;
 }
 
-.hero-area .block .btn-main {
-  margin-right: 8px;
-}
-
 .hero-area .block .btn-main:hover {
   opacity: .8;
 }
