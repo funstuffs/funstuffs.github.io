@@ -537,6 +537,7 @@ a:focus, a:hover {
 
 .hero-area .block {
   color: #fff;
+  text-align: center;
 }
 
 .hero-area .block h1 {
@@ -548,7 +549,6 @@ a:focus, a:hover {
 
 .hero-area .block p {
   color: #fff;
-  width: 50%;
   margin-bottom: 20px;
 }
 
