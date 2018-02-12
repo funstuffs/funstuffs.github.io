@@ -1808,6 +1808,9 @@ a:focus, a:hover {
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
+  
+  .logo-default, .logo-white {margin-top:7px}	
+
   .navigation.sticky-header .navbar-toggle {
     border: 1px solid #dedede;
   }
@@ -2011,8 +2014,6 @@ a:focus, a:hover {
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
-  .logo-default, .logo-white {margin-top:7px}
   
   .title h2 {
     font-size: 32px;
