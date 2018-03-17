@@ -144,10 +144,13 @@ a:focus, a:hover {
 .mv-event-container { border-top:1px solid black }
 
 #calendar {
-    position: relative; padding-bottom: 75%; height: 0;
-    overflow: hidden
+    position: relative;
+    padding-bottom: 75%;
+    height: 50vh;
+    overflow: hidden;
     text-align: center;
-    height: 100vh;
+    width: 90%;
+    margin: 10px auto;
 }
  
 #calendar iframe {
@@ -583,11 +586,11 @@ a:focus, a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hero-area-video .block {
