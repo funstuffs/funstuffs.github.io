@@ -131,7 +131,6 @@ a:focus, a:hover {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  margin-left: 0
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -152,6 +151,7 @@ a:focus, a:hover {
   position: relative;
   background-color: inherit;
   width: 50%;
+  margin-left: 0
 }
 
 /* The circles on the timeline */
