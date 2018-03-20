@@ -1972,7 +1972,8 @@ a:focus, a:hover {
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
-  
+  .timeline .right::after {left: 0}
+	
   .logo-default, .logo-white {margin-top:7px}
 
   .navigation.sticky-header .navbar-toggle {
