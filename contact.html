@@ -171,14 +171,14 @@ End Fixed Navigation
 					
 				<!-- Contact Form -->
 				<div class="contact-form col-md-6 " >
-					<form id="contact-form" method="post" action="sendmail.php" role="form">
+					<form id="contact-form" method="post" action="https://formspree.io/club@herricksrobotics.org" role="form">
 					
 						<div class="form-group">
 							<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
 						</div>
 						
 						<div class="form-group">
-							<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+							<input type="email" placeholder="Your Email" class="form-control" name="_replyto" id="email">
 						</div>
 						
 						<div class="form-group">
@@ -189,13 +189,7 @@ End Fixed Navigation
 							<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
 						</div>
 						
-						<div id="mail-success" class="success">
-							Thank you. The Mailman is on His Way :)
-						</div>
-						
-						<div id="mail-fail" class="error">
-							Sorry, don't know what happened. Try later :(
-						</div>
+						<input type="hidden" name="_next" value="//funstuffs.github.io/thanks.html" />
 						
 						<div id="cf-submit">
 							<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
