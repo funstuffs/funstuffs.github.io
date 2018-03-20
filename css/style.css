@@ -1003,81 +1003,6 @@ a:focus, a:hover {
   margin: 0;
   color: #666;
 }
-
-/*=================================================================
-  Pricing section
-==================================================================*/
-.pricing-table {
-  padding: 100px 0;
-  background: url("../images/pricing-bg.jpg");
-  position: relative;
-}
-
-.pricing-table .title p {
-  color: #fff;
-}
-
-.pricing-table:before {
-  background: rgba(0, 0, 0, 0.62);
-  position: absolute;
-  z-index: 999;
-  content: '';
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.pricing-table .container {
-  position: relative;
-  z-index: 999;
-}
-
-.pricing-table .pricing-item {
-  padding: 40px 55px 65px;
-  background: #fff;
-  margin-bottom: 20px;
-}
-
-.pricing-table .pricing-item a.btn-main {
-  text-transform: uppercase;
-  margin-top: 20px;
-}
-
-.pricing-table .pricing-item li {
-  font-weight: 400;
-  padding: 10px 0;
-  color: #666;
-}
-
-.pricing-table .pricing-item li i {
-  margin-right: 6px;
-}
-
-.pricing-table .price-title {
-  padding: 30px 0 20px;
-}
-
-.pricing-table .price-title > h3 {
-  font-weight: 700;
-  margin: 0 0 5px;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.pricing-table .price-title > p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  margin-top: 5px;
-}
-
-.pricing-table .price-title .value {
-  color: #28ABE3;
-  font-size: 50px;
-  padding: 10px 0;
-}
-
 /*=================================================================
   Portfolio section
 ==================================================================*/
@@ -1331,11 +1256,10 @@ a:focus, a:hover {
   ==================================================================*/
 .team {
   padding: 100px 0;
-  background: #F6F6F6;
 }
 
 .team .team-member {
-  background: #fff;
+  background: #F6F6F6;
 }
 
 .team .team-member .member-content {
@@ -1424,53 +1348,6 @@ a:focus, a:hover {
   filter: alpha(opacity=100);
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
-}
-
-/*=================================================================
-  Testimonial section
-==================================================================*/
-.testimonial {
-  padding-top: 100px;
-  background: #1b588e;
-  position: relative;
-  padding-bottom: 0px;
-  margin-bottom: 80px;
-}
-
-.testimonial:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  bottom: 0;
-  height: 150px;
-  background-color: white;
-}
-
-.testimonial .item i {
-  font-size: 70px;
-  color: #fff;
-  margin-bottom: 50px;
-  display: inline-block;
-}
-
-.testimonial .item .client-details {
-  padding-bottom: 30px;
-}
-
-.testimonial .item .client-details p {
-  font-size: 17px;
-  color: #fff;
-  font-weight: 200;
-  padding: 0 10%;
-}
-
-.testimonial .item .client-thumb img {
-  display: inline-block;
-  border-radius: 100%;
-  width: 150px;
-  height: auto;
 }
 
 /*=================================================================
@@ -1845,10 +1722,6 @@ a:focus, a:hover {
   .member-info ul li {
     margin-right: 10px;
   }
-  /* testimonial */
-  .client-info {
-    width: 55%;
-  }
   /* blog page */
   .tab-post-nav li a {
     padding: 15px 8px;
@@ -1911,15 +1784,6 @@ a:focus, a:hover {
   .skill-chart > h3 {
     margin: 15px 0;
   }
-  /* pricing table */
-  .pricing {
-    margin: 0 auto 30px;
-    width: 300px;
-  }
-  /* testimonial */
-  .client-info {
-    width: 75%;
-  }
   /* latest posts */
   .note {
     margin-bottom: 30px;
@@ -1972,7 +1836,7 @@ a:focus, a:hover {
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
-  .timeline .right::after {left: 0}
+  .timeline .right::after {left: 15px}
 	
   .logo-default, .logo-white {margin-top:7px}
 
@@ -2098,19 +1962,10 @@ a:focus, a:hover {
     text-align: center;
     margin-bottom: 10px;
   }
-  /* pricing table */
-  .pricing {
-    margin: 0 auto 20px;
-    width: 280px;
-  }
   /* portfolio */
   .portfolio-filter ul li a {
     margin: 0 10px 10px 0;
     padding: 5px 10px;
-  }
-  /* testimonials */
-  .sub-title h3 {
-    font-size: 18px;
   }
   .client-info {
     width: 100%;
@@ -2247,15 +2102,6 @@ a:focus, a:hover {
   .skill-chart {
     margin: 0 auto 40px;
     width: 300px;
-  }
-  /* pricing table */
-  .pricing {
-    margin: 0 auto 30px;
-    width: 350px;
-  }
-  /* testimonials */
-  .client-info {
-    width: 74%;
   }
   /* latest posts */
   #blog {
