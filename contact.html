@@ -170,12 +170,28 @@ End Fixed Navigation
 				<!-- / End Contact Details -->
 					
 				<!-- Contact Form -->
-				<form action="https://formspree.io/alchousr21@herricksk12.org" method="POST">
-				    <input type="text" name="name">
-				    <input type="email" name="_replyto">
-				    <input type="submit" value="Send">
-				</form>
+				<div class="contact-form  col-md-6">
+					<form action="https://formspree.io/club@herricksrobotics.org" method="POST">
+						<div class="form-group">
+						    <input type="text" placeholder="Your Name" class="form-control" name="name" required>
+						</div>
+						<div class="form-group">
+						    <input type="email" placeholder="Your Email" class="form-control" name="_replyto" required>
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="Subject" class="form-control" name="subject" required>
+						</div>
 
+						<div class="form-group">
+							<textarea rows="6" placeholder="Message" class="form-control" name="message" required></textarea>	
+						</div>
+						<div id="cf-submit">
+							<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+						</div>
+						<input type="hidden" name="_next" value="thanks.html" />
+						<input type="text" name="_gotcha" style="display:none">
+				    </form>
+				</div>
 				<!-- ./End Contact Form -->
 			
 			</div> <!-- end row -->
