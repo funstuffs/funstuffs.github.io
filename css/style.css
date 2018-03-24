@@ -933,33 +933,6 @@ a:focus, a:hover {
   margin: 0;
 }
 
-.error {
-  display: none;
-  padding: 10px;
-  color: #D8000C;
-  border-radius: 4px;
-  font-size: 13px;
-  background-color: #FFBABA;
-}
-
-.success {
-  background-color: #6cb670;
-  border-radius: 4px;
-  color: #fff;
-  display: none;
-  font-size: 13px;
-  padding: 10px;
-}
-
-.map {
-  position: relative;
-}
-
-.map #map_canvas {
-  height: 400px;
-  color: white;
-}
-
 /*=================================================================
   Item counter section
 ==================================================================*/
@@ -1089,109 +1062,6 @@ a:focus, a:hover {
   padding: 4px 13px;
   font-size: 25px;
   border-radius: 30px;
-}
-
-/*=================================================================
-  Services section
-==================================================================*/
-.services {
-  padding: 100px 0 130px;
-}
-
-.services .service-block {
-  padding: 50px 35px 40px 35px;
-}
-
-.services .service-block.color-bg {
-  background: #28ABE3;
-  color: #fff;
-}
-
-.services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
-  color: #fff;
-}
-
-.services .service-block .service-icon {
-  margin-bottom: 30px;
-}
-
-.services .service-block i {
-  font-size: 75px;
-  color: #28ABE3;
-}
-
-.services .service-block h3 {
-  color: #333;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.services .service-block p {
-  font-size: 14px;
-  color: #666;
-}
-
-/*=================================================================
-  Services section 2
-==================================================================*/
-.service-2 .service-item {
-  border: 1px solid #eee;
-  margin-bottom: 30px;
-  padding: 50px 20px;
-  transition: all 0.3s ease 0s;
-}
-
-.service-2 .service-item:hover {
-  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-}
-
-.service-2 .service-item:hover i {
-  background: #fff;
-  color: #28ABE3;
-}
-
-.service-2 .service-item i {
-  font-size: 30px;
-  display: inline-block;
-  background: #28ABE3 none repeat scroll 0 0;
-  border-radius: 30px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-  color: #fff;
-  height: 55px;
-  line-height: 55px;
-  margin-bottom: 20px;
-  width: 55px;
-  transition: all 0.3s ease 0s;
-}
-
-/*=================================================================
-  Our skills
-==================================================================*/
-.team-skills .progress-block {
-  margin-top: 40px;
-}
-
-.team-skills .progress-block span {
-  display: inline-block;
-  margin-bottom: 5px;
-  font-size: 14px;
-}
-
-.team-skills .progress-block .progress {
-  box-shadow: none;
-  border-radius: 0;
-  height: 10px;
-}
-
-.team-skills .progress-block .progress .progress-bar {
-  background: #28ABE3;
-  box-shadow: none;
-}
-
-.clients-logo-slider {
-  margin-top: 50px;
 }
 
 /*=================================================================
@@ -1387,189 +1257,6 @@ a:focus, a:hover {
 }
 
 /*=================================================================
-  Single Blog Page
-==================================================================*/
-#blog-banner {
-  padding-bottom: 100px;
-  padding-top: 150px;
-}
-
-#blog-page {
-  margin: 0 0 40px;
-}
-
-.post-meta {
-  font-size: 13px;
-  margin: 20px 0 0;
-  padding: 0 20px 10px;
-}
-
-.post-meta a {
-  color: #28ABE3;
-}
-
-.post-meta > span {
-  color: #666;
-  border-right: 1px solid #dedede;
-  display: inline-block;
-  font-size: 13px;
-  margin: 10px 10px 0 0;
-  padding-right: 10px;
-}
-
-.post-meta > span:last-child {
-  border-right: 0;
-}
-
-.post-meta > span i {
-  margin-right: 5px;
-}
-
-.post-excerpt {
-  padding: 0 20px;
-  margin-bottom: 60px;
-}
-
-.post-excerpt h3 a {
-  color: #000;
-}
-
-.post-excerpt blockquote {
-  line-height: 22px;
-  margin: 20px 0;
-  font-size: 16px;
-}
-
-.single-blog {
-  background-color: #fff;
-  margin-bottom: 50px;
-  padding: 20px;
-}
-
-.blog-subtitle {
-  font-size: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #dedede;
-  margin-bottom: 25px;
-  text-transform: uppercase;
-}
-
-.next-prev {
-  border-bottom: 1px solid #dedede;
-  border-top: 1px solid #dedede;
-  margin: 20px 0;
-  padding: 25px 0;
-}
-
-.next-prev a {
-  color: #000;
-}
-
-.next-prev a:hover {
-  color: #28ABE3;
-}
-
-.next-prev .prev-post i {
-  margin-right: 10px;
-}
-
-.next-prev .next-post i {
-  margin-left: 10px;
-}
-
-.social-profile ul li {
-  margin: 0 10px 0 0;
-  display: inline-block;
-}
-
-.social-profile ul li a {
-  color: #4e595f;
-  display: block;
-  font-size: 16px;
-}
-
-.social-profile ul li a i:hover {
-  color: #28ABE3;
-}
-
-.comments-section {
-  margin-top: 35px;
-}
-
-.author-about {
-  margin-top: 40px;
-}
-
-.post-author {
-  margin-right: 20px;
-}
-
-.post-author > img {
-  border: 1px solid #dedede;
-  max-width: 120px;
-  padding: 5px;
-  width: 100%;
-}
-
-.comment-list ul {
-  margin-top: 20px;
-}
-
-.comment-list ul li {
-  margin-bottom: 20px;
-}
-
-.comment-wrap {
-  border: 1px solid #dedede;
-  border-radius: 1px;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-}
-
-.comment-wrap .author-avatar {
-  margin-right: 10px;
-}
-
-.comment-wrap .media .media-heading {
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-
-.comment-wrap .media .media-heading a {
-  color: #28ABE3;
-  font-size: 13px;
-}
-
-.comment-wrap .media .comment-meta {
-  font-size: 12px;
-  color: #888;
-}
-
-.comment-wrap .media p {
-  margin-top: 15px;
-}
-
-.comment-reply-form {
-  margin-top: 80px;
-}
-
-.comment-reply-form input, .comment-reply-form textarea {
-  height: 35px;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.comment-reply-form input:focus, .comment-reply-form textarea:focus {
-  box-shadow: none;
-  border: 1px solid #28ABE3;
-}
-
-.comment-reply-form textarea, .comment-reply-form .btn-main {
-  height: auto;
-}
-
-/*=================================================================
   Footer section
 ==================================================================*/
 .footer-bottom {
@@ -1688,10 +1375,6 @@ a:focus, a:hover {
   .tab-post-nav li a {
     padding: 15px 8px;
   }
-  /* single blog page */
-  .author-bio h5 {
-    margin-left: 70px;
-  }
 }
 
 /*============================================================
@@ -1753,10 +1436,6 @@ a:focus, a:hover {
   /* blog page */
   .tab-post-nav li a {
     padding: 10px;
-  }
-  /* singla blog page */
-  .author-social {
-    margin-left: 0;
   }
 }
 
@@ -1982,13 +1661,6 @@ a:focus, a:hover {
   }
   .tab-post-nav li a {
     padding: 8px 5px;
-  }
-  /* single blog page */
-  .author-social {
-    margin-left: 0;
-  }
-  .author-avatar {
-    margin-right: 10px;
   }
 }
 
