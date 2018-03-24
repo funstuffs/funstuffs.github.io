@@ -219,6 +219,10 @@ a:focus, a:hover {
   border-radius: 6px;
 }
 
+.resources img {
+    border: 1.5px solid;
+}
+
 #preloader {
   background: #fff;
   height: 100%;
