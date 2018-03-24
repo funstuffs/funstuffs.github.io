@@ -95,15 +95,15 @@ if (scroll > 200) {
 })(jQuery);
 
 //Array of images which you want to show: Use path you want.
-var images=new Array('images/competitions/Harvey%20States%20Competition.jpg','images/competitions/LFNY%20Competition.jpg','images/competitions/Carle%20Place%20Competition.jpg','images/competitions/Farmingdale%20Competition.jpg');
-var nextimage=0;
+var images = new Array('images/competitions/Harvey%20States%20Competition.jpg','images/competitions/LFNY%20Competition.jpg','images/competitions/Carle%20Place%20Competition.jpg','images/competitions/Farmingdale%20Competition.jpg');
+var nextimage = 0;
 doSlideshow();
 
 function doSlideshow(){
     if(nextimage>=images.length){nextimage=0;}
     $('.global-header')
     $(".hero-area").css('background-image','url("'+images[nextimage++]+'")')
-    .fadeIn(500,function(){
-        setTimeout(doSlideshow,1000);
+    .fadeIn(1000,function(){
+        setTimeout(doSlideshow,2000);
     });
 }
