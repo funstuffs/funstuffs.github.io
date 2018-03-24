@@ -103,7 +103,7 @@ function doSlideshow(){
     if(nextimage>=images.length){nextimage=0;}
     $('.global-header')
     $(".hero-area").css('background-image','url("'+images[nextimage++]+'")')
-    .fadeIn(1000,function(){
-        setTimeout(doSlideshow,2000);
+    .fadeIn(1500,function(){
+        setTimeout(doSlideshow,3000);
     });
 }
