@@ -628,7 +628,6 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  background-image: url("/images/competitions/Harvey%20States%20Competition.jpg")
   background-size: cover;
   background-position:center;
   height: 100vh;
