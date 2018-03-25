@@ -509,7 +509,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background-image: url("/images/about/about-header.jpg");
+  background-image: url("/images/header_robot.jpg");
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
