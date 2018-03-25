@@ -642,7 +642,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block .btn-main:hover {
-    opacity: ;ty: .8;
+    opacity: .8;
 }
 
 .hero-area-video {
@@ -1120,7 +1120,7 @@ a:focus, a:hover {
     width: 35px;
 }
 
-.team .member-photo .mask ul li a::hover {
+.team .member-photo .mask ul li a:hover {
     background-color: #6cb670;
     border: 1px solid transparent;
 }
