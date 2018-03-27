@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7119b9-a8a7-4923-b694-41caed47f98b" name="Default" comment="" />
+    <list default="true" id="0b7119b9-a8a7-4923-b694-41caed47f98b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,28 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9645">
-              <caret line="643" column="57" lean-forward="false" selection-start-line="643" selection-start-column="57" selection-end-line="643" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1033" column="1" lean-forward="false" selection-start-line="1033" selection-start-column="1" selection-end-line="1033" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,34 +90,6 @@
               <item name="funstuffs.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="funstuffs.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="funstuffs.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funstuffs.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funstuffs.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funstuffs.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funstuffs.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funstuffs.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="competitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funstuffs.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funstuffs.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="competitions" type="462c0819:PsiDirectoryNode" />
-              <item name="harvey-states" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="funstuffs.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="funstuffs.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +133,7 @@
       <workItem from="1521770578026" duration="3105000" />
       <workItem from="1521920424031" duration="11579000" />
       <workItem from="1522026844479" duration="43000" />
-      <workItem from="1522162565521" duration="62000" />
+      <workItem from="1522162565521" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="changes from WebStorm">
       <created>1521771193194</created>
@@ -305,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14789000" />
+    <option name="totallyTimeSpent" value="15031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -489,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9645">
+        <state relative-caret-position="15">
           <caret line="643" column="57" lean-forward="false" selection-start-line="643" selection-start-column="57" selection-end-line="643" selection-end-column="57" />
           <folding />
         </state>
