@@ -287,17 +287,6 @@ pre {
     width: 75%;
     word-wrap: break-word;
 }
-.thumbnail-description {
-    color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
-    font-size: 16px;
-    margin: 0 auto;
-    max-height: 5em;
-    max-width: 360px;
-    text-align: left;
-    width: 75%;
-    text-transform: uppercase;
-}
 /*===== Project Assets =====*/
 .thumb img {
     width: 100%;
